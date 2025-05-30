@@ -1,0 +1,43 @@
+.H{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px 0;
+}
+.logo{
+    background-color: #f4eee5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+.search {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    height: 70px;
+  }
+  
+  .search li {
+    margin-bottom: 8px;
+  }
+  
+  .search a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .search a:hover {
+    color: #ffee91; 
+  }

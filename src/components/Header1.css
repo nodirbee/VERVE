@@ -1,0 +1,43 @@
+.H1{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.left{
+    background-color: #dee1e4;
+    width: 700px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0 140px;
+    row-gap: 18px;
+}
+.left>p{
+    font-size: 38px;
+    font-weight: 600;
+}
+.left>span{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(98, 96, 96);
+}
+.left>button{
+    font-size: 21px;
+    font-weight: 500;
+    width: 210px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.left>button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.right>img{
+    width: 890px;
+    height: 470px;
+}
