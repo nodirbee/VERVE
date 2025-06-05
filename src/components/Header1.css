@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding: 0 140px;
+    padding: 0 160px;
     row-gap: 18px;
 }
 .left>p{
