@@ -12,17 +12,20 @@ function Header(){
 
     ];
 
-    const product = products.map((product)=>{
-        return(
-            <Product
-            photo={product.photo}
-            name={product.name}
-            about={product.about}
-            price={product.price}
-            buttonText={product.buttonText}
-            />
-        )
-    })
+ const product = products.map((product) => {
+  return (
+    <Product
+      key={product.name}
+      phot={product.photo}
+      name={product.name}
+      about={product.about}
+      price={product.price}
+      buttonText={product.buttonText}
+      simage={product.simage}
+    />
+  );
+});
+
     return(
         <>
         <Nav list={items}/>
@@ -34,6 +37,7 @@ function Header(){
         <button>Shop New Arrivals</button>
     </div>
   {product}
+  
 </div>
         </>
     );

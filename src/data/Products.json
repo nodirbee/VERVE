@@ -1,5 +1,8 @@
 [
-    {"photo":"./image/ccc.png","simage":"./image/qqq.png","buttonText": "QUICK ADD","name":"Morning Brew Blend","about":"PLUM · BLACK TEA · NECTARINE","price":"$24.00"},
-    {"photo":"./image/qqq.png","buttonText": "QUICK ADD","name":"Costa Rica Black Moon Farmlevel Reserve","about":"Single Origin - Costa Rica","price":"$29.50"},
-    {"photo":"./image/www.png","buttonText": "QUICK ADD","name":"Ethiopia Buriso Amaje Natural","about":"Single Origin - Ethiopia","price":"$26.00"}
+    {  
+  "photo": "/image/ccc.png",
+  "simage": "/image/qqq.png"
+,"buttonText": "QUICK ADD","name":"Morning Brew Blend","about":"PLUM · BLACK TEA · NECTARINE","price":"$24.00"},
+    {"photo":"./image/qqq.png","simage": "/image/ccc.png","buttonText": "QUICK ADD","name":"Costa Rica Black Moon Farmlevel Reserve","about":"Single Origin - Costa Rica","price":"$29.50"},
+    {"photo":"./image/www.png","simage": "/image/qqq.png","buttonText": "QUICK ADD","name":"Ethiopia Buriso Amaje Natural","about":"Single Origin - Ethiopia","price":"$26.00"}
 ]
